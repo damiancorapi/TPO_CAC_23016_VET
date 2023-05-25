@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet"></head>
+    <script src="https://kit.fontawesome.com/99cc92199c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <br>
+        <nav>
+            <a class="link" href="Index.html">Home</a> |
+            <a class="link" href="acerca.html">Acerca de</a> |
+            <a class="link" href="contacto.html">Contacto</a> |
+            <a class="link" href="#">Registro</a> |
+            <a class="link" href="sucursales.html">Ubicación</a>
+        </nav>
+        <h1>Veterinaria Sudo</h1>
+    </header>
+
+    <br>
+
+    <main class="form">
+        <div class="formulario">
+        <h2>Formulario de Registro</h2>
+
+        <form action="show_data.html" target="_blank">
+            <div>
+                <label for="nombre"> Nombre de su mascota: </label>
+                    <input type="text" name="nombre" required placeholder="Ingrese su nombre">
+                </div> <br>
+
+                <div>
+                <label for="nombreDuenio"> Nombre Dueño : </label>
+                    <input type="text" name="raza" required placeholder="Ingrese su nombre">
+                </div> <br>
+
+                <div>
+                <label for="direccion"> dirección: </label>
+                    <input type="text" name="direccion" placeholder="Ingrese su dirección">
+                </div> <br>
+
+                <div>
+                <label for="cuidad"> Ciudad: </label>
+                    <input type="text" name="cuidad" placeholder="Ingrese la cuidad">
+                </div> <br>
+
+                <div>
+                    <label for="genero">Raza de su mascota</label>
+                    <span class="radio1">
+                        <input type="radio" name="tipo" value="can"> Canino
+                        <input type="radio" name="tipo" value="felino"> Felino
+                        <input type="radio" name="tipo" value="ave"> Ave
+                        <input type="radio" name="tipo" value="otro"> Otro
+                    </span>
+                </div> <br>
+
+                <div>
+                    <select name="sexo" id="">
+                        <option value="">Selecciona el sexo</option>
+                        <option value="macho">Macho</option>
+                        <option value="hembra">Hembra</option>
+                    </select>
+                </div> <br>
+
+                <label for="tipoConsulta"> ¿Tipo de consulta?: </label>
+                    <input type="text" name="tipoConsulta" required placeholder="Ingrese el motivo de su consulta de forma breve">
+                </div> <br>
+
+                <div>
+                    <label for="papeles">¿Edad apróximada?</label>
+                    <span class="radio2">
+                        <input type="radio" name="edad" value="0"> Menos de 6 meses
+                        <input type="radio" name="edad" value="1"> Entre 6 meses y 1 año
+                        <input type="radio" name="edad" value="2"> Mas de 1 año
+                    </span>
+                </div> <br>
+
+                <input type="submit" value="Enviar">
+
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <a class="foot-img2" href="https://web.facebook.com/"><img class="foot-img" src="./Imagenes/facebook.png" alt="facebook"></a>
+            <a class="foot-img2" href="https://www.instagram.com/"><img class="foot-img" src="./Imagenes/instagram.png" alt="instagram"></a>
+            <a class="foot-img2" href="https://twitter.com/"><img class="foot-img" src="./Imagenes/tweeter.png" alt="tweeter"></a>
+            <a class="foot-img2" href="https://web.whatsapp.com/"><img class="foot-img" src="./Imagenes/whatsapp.jpg" alt="whatsapp"></a>
+        </div>
+        <p class="animate__animated animate__bounce">Derechos reservados @2023<br>
+           <i class="fa-solid fa-user-doctor" style="color: #FFFFFF;"></i> </p>
+    </footer>
+</body>
+
+</html>
